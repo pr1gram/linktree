@@ -79,6 +79,12 @@ z-index: -1;
   left: 10%;
   top: 15%;
 }
+@media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+          
+        }
+      }
 
 a {
     text-decoration:none;
@@ -98,25 +104,25 @@ a {
 <p class="sub-text">welcome to my linktree</p>
 <div class="up-center">
   <button class="button" >
-    <img src={igIcon} alt="igIcon" class="icon"> 
+    <img src={igIcon} alt="igIcon" class="icon hidden-mobile"> 
     <a href="https://www.instagram.com/program_na" target="_blank"> Instagram</a>
   </button>
 </div>
 <div class="center">
   <button class="button">
-    <img src={spotifyIcon} alt="igIcon" class="icon"> 
+    <img src={spotifyIcon} alt="igIcon" class="icon hidden-mobile"> 
     <a href="https://open.spotify.com/playlist/4UM1jeGGaljaejbiIz2NDH?si=df70e4ef8447420e" target="_blank"> Spotify Playlist</a>
   </button>
 </div>
 <div class="center">
   <button class="button">
-    <img src={youtubeIcon} alt="igIcon" class="icon"> 
+    <img src={youtubeIcon} alt="igIcon" class="icon hidden-mobile"> 
     <a href="https://www.youtube.com/@pr_gram" target="_blank"> Youtube</a>
   </button>
 </div>
 <div class="center">
   <button class="button">
-    <img src={twitchIcon} alt="igIcon" class="icon"> 
+    <img src={twitchIcon} alt="igIcon" class="icon hidden-mobile"> 
     <a href="https://www.twitch.tv/pr_gram" target="_blank"> Twitch</a>
   </button>
 </div>
