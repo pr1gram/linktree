@@ -49,8 +49,7 @@ z-index: -1;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.button{  
-  border: none;  
+.button{    
   cursor: pointer;  
   font-size: 30px;  
   border-radius: 20px;
@@ -63,14 +62,32 @@ z-index: -1;
   transform: translate(-50%);
   padding-top: 10px;
   padding-bottom: 10px;
-  
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  transition: 0.3s;
+  z-index: 2;
+  text-align: center;
 }
+.button:hover{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.icon{
+  width: 40px;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+
 a {
     text-decoration:none;
     font-family:Arial;
     display: block;
     color: black;
+    text-align: center;
 }
+
 
 </style>
 
@@ -81,24 +98,32 @@ a {
 <p class="sub-text">welcome to my linktree</p>
 <div class="up-center">
   <button class="button" >
+    <img src={igIcon} alt="igIcon" class="icon"> 
     <a href="https://www.instagram.com/program_na" target="_blank"> Instagram</a>
   </button>
 </div>
 <div class="center">
   <button class="button">
+    <img src={spotifyIcon} alt="igIcon" class="icon"> 
     <a href="https://open.spotify.com/playlist/4UM1jeGGaljaejbiIz2NDH?si=df70e4ef8447420e" target="_blank"> Spotify Playlist</a>
   </button>
 </div>
 <div class="center">
   <button class="button">
+    <img src={youtubeIcon} alt="igIcon" class="icon"> 
     <a href="https://www.youtube.com/@pr_gram" target="_blank"> Youtube</a>
   </button>
 </div>
 <div class="center">
   <button class="button">
+    <img src={twitchIcon} alt="igIcon" class="icon"> 
     <a href="https://www.twitch.tv/pr_gram" target="_blank"> Twitch</a>
   </button>
 </div>
 <script>
   import profile from '$lib/img/eevee-sylvy.png';
+  import igIcon from '$lib/img/Instagram-Icon.png';
+  import spotifyIcon from '$lib/img/spotify-icon.png';
+  import youtubeIcon from '$lib/img/youtube-icon.png';
+  import twitchIcon from '$lib/img/twitch-icon.png';
 </script>    
