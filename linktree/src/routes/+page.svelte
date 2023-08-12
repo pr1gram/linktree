@@ -126,6 +126,11 @@ a {
     <a href="https://www.twitch.tv/pr_gram" target="_blank"> Twitch</a>
   </button>
 </div>
+<div class="center">
+  <button class="button">
+    <a href="https://program-shitpost.vercel.app" target="_blank"> shit post</a>
+  </button>
+</div>
 <script>
   import profile from '$lib/img/eevee-sylvy.png';
   import igIcon from '$lib/img/Instagram-Icon.png';
