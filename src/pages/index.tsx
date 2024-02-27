@@ -12,7 +12,6 @@ export default function Home() {
       <div className=" relative w-screen h-[calc(100dvh)] overflow-hidden    ">
         <div className=" absolute top-0 left-0 w-screen h-screen -z-99 overflow-hidden ">
           <div className=" absolute w-screen h-screen top-0 left-0 bg-black opacity-30 z-0">
-            <Snowfall />
           </div>
           <div className="w-screen h-screen absolute top-0 left-0 -z-10"></div>
           <Image
