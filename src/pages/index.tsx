@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { Snowfall } from "react-snowfall";
 
 export default function Home() {
   const text = "pr_gram";
@@ -10,9 +11,10 @@ export default function Home() {
     <>
       <div className=" relative w-screen h-[calc(100dvh)] overflow-hidden    ">
         <div className=" absolute top-0 left-0 w-screen h-screen -z-99 overflow-hidden ">
-          <div className=" absolute w-screen h-screen top-0 left-0 bg-black opacity-30 z-0"></div>
-          <div className="w-screen h-screen absolute top-0 left-0 -z-10">
+          <div className=" absolute w-screen h-screen top-0 left-0 bg-black opacity-30 z-0">
+            <Snowfall />
           </div>
+          <div className="w-screen h-screen absolute top-0 left-0 -z-10"></div>
           <Image
             src="/wallpaper1.jpg"
             alt="background"
@@ -135,7 +137,7 @@ export default function Home() {
                     }}
                   >
                     <Link
-                      href="https://www.twitch.tv/pr_gram"
+                      href="https://discord.gg/M9DymhWa"
                       className="w-full block py-2"
                     >
                       Discord
@@ -149,7 +151,7 @@ export default function Home() {
                     }}
                   >
                     <Link
-                      href="https://www.twitch.tv/pr_gram"
+                      href="https://github.com/pr1gram"
                       className="w-full block py-2"
                     >
                       Github
