@@ -2102,7 +2102,7 @@ react-dom@^18, react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-fast-compare@^3.2.2:
+react-fast-compare@^3.2.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.2.tgz#929a97a532304ce9fee4bcae44234f1ce2c21d49"
   integrity sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==
@@ -2112,12 +2112,12 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-snowfall@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-snowfall/-/react-snowfall-2.1.0.tgz#b8c22c182c4e5cd084025c73169a3f399c3dd147"
-  integrity sha512-5nYWmBTJi/rrRRTmE62QLhxSp3sfX9niPP1Ysrd4dkVZLr0fxHTkcqCLQx7BAkclCEq5MWZ7kgIHrqk5Ugq1PA==
+react-snowfall@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-snowfall/-/react-snowfall-1.2.1.tgz#68cab6a1d05aa7c3211bce96a3a97977ca7dc57f"
+  integrity sha512-d2UR3nDq3F0DJGaTfJ0QNbBo76UZHtT9wHFj+ePxAl4FgSxWBhxB/Bjn06f5iDBwhgwiZ7CZmv3lwfNvjo6a+w==
   dependencies:
-    react-fast-compare "^3.2.2"
+    react-fast-compare "^3.2.0"
 
 react-social-icons@^6.14.0:
   version "6.14.0"
