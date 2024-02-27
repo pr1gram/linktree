@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Snowfall } from "react-snowfall";
+import Snowfall from "react-snowfall";
 
 export default function Home() {
   const text = "pr_gram";
@@ -11,9 +11,13 @@ export default function Home() {
     <>
       <div className=" relative w-screen h-[calc(100dvh)] overflow-hidden    ">
         <div className=" absolute top-0 left-0 w-screen h-screen -z-99 overflow-hidden ">
-          <div className=" absolute w-screen h-screen top-0 left-0 bg-black opacity-30 z-0">
+          <div className=" absolute w-screen h-screen top-0 left-0 bg-black opacity-30 z-0"></div>
+          <div className="w-screen h-screen absolute top-0 left-0 -z-10 sm:hidden">
+            <Snowfall snowflakeCount={5} />
           </div>
-          <div className="w-screen h-screen absolute top-0 left-0 -z-10"></div>
+          <div className="w-screen h-screen absolute top-0 left-0 -z-10 max-sm:hidden">
+            <Snowfall snowflakeCount={20} />
+          </div>
           <Image
             src="/wallpaper1.jpg"
             alt="background"
