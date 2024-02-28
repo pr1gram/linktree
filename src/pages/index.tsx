@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <>
-      <div className=" relative w-screen h-[calc(100dvh)] overflow-hidden    ">
+      <div className=" relative w-screen h-screen overflow-hidden    ">
         <div className=" absolute top-0 left-0 w-screen h-screen -z-99 overflow-hidden ">
           <div className=" absolute w-screen h-screen top-0 left-0 bg-black opacity-30 z-0"></div>
           <div className="w-screen h-screen absolute top-0 left-0 -z-10 sm:hidden">
@@ -26,7 +26,7 @@ export default function Home() {
             quality={100}
           />
         </div>
-        <div className=" flex justify-center items-center h-full relative z-[99]">
+        <div className=" flex justify-center items-center h-[90%] sm:h-full relative z-[99]">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
