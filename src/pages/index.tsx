@@ -22,6 +22,7 @@ export default function Home() {
             src="/wallpaper1.jpg"
             alt="background"
             fill
+            priority={true}
             className=" object-cover absolute -z-20"
             quality={100}
           />
