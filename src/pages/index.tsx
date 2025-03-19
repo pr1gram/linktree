@@ -2,6 +2,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Snowfall from "react-snowfall";
+import bgImage from "../../public/wallpaper1.png";
 
 export default function Home() {
   const text = "pr_gram";
@@ -19,11 +20,12 @@ export default function Home() {
             <Snowfall snowflakeCount={20} />
           </div>
           <Image
-            src="/wallpaper1.jpg"
+            src={bgImage}
             alt="background"
             fill
             priority={true}
             className=" object-cover absolute -z-20"
+            placeholder="blur"
             quality={100}
           />
         </div>
@@ -112,10 +114,7 @@ export default function Home() {
                       transition: { duration: 0.1 },
                     }}
                   >
-                    <Link
-                      href="https://www.youtube.com/@pr_gram"
-                      className="w-full block py-2"
-                    >
+                    <Link href="https://www.youtube.com/@pr_gram" className="w-full block py-2">
                       Youtube
                     </Link>
                   </motion.div>
@@ -126,10 +125,7 @@ export default function Home() {
                       transition: { duration: 0.1 },
                     }}
                   >
-                    <Link
-                      href="https://www.twitch.tv/pr_gram"
-                      className="w-full block py-2"
-                    >
+                    <Link href="https://www.twitch.tv/pr_gram" className="w-full block py-2">
                       Twitch
                     </Link>
                   </motion.div>
@@ -140,10 +136,7 @@ export default function Home() {
                       transition: { duration: 0.1 },
                     }}
                   >
-                    <Link
-                      href="https://discord.gg/M9DymhWa"
-                      className="w-full block py-2"
-                    >
+                    <Link href="https://discord.gg/M9DymhWa" className="w-full block py-2">
                       Discord
                     </Link>
                   </motion.div>
@@ -154,10 +147,7 @@ export default function Home() {
                       transition: { duration: 0.1 },
                     }}
                   >
-                    <Link
-                      href="https://github.com/pr1gram"
-                      className="w-full block py-2"
-                    >
+                    <Link href="https://github.com/pr1gram" className="w-full block py-2">
                       Github
                     </Link>
                   </motion.div>
